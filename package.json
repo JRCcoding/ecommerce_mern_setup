@@ -1,12 +1,12 @@
 {
-  "name": "proshop",
+  "name": "stonyhill",
   "version": "1.0.0",
-  "description": "MERN shopping cart app",
+  "description": "Stony Hill Essentials, LLC",
   "main": "server.js",
   "type": "module",
-  "engines": {
-    "node": "16.17.1"
-  },
+  // "engines": {
+  //   "node": "16.17.1"
+  // },
   "scripts": {
     "build": "react-scripts build",
     "start": "node backend/server",
@@ -17,7 +17,7 @@
     "data:destroy": "node backend/seeder -d",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
-  "author": "Brad Traversy",
+  "author": "Josh Claxton",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
