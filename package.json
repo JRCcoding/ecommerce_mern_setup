@@ -1,6 +1,10 @@
 {
   "name": "stonyhill",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.17.1",
+    "yarn": "1.22.19"
+},
   "description": "Stony Hill Essentials, LLC",
   "main": "server.js",
   "type": "module",
@@ -13,7 +17,7 @@
     "data:import": "node backend/seeder",
     "data:destroy": "node backend/seeder -d",
     
-    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
   "author": "Josh Claxton",
   "license": "MIT",
