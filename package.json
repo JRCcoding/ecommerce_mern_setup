@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "engines": {
     "node": "16.17.1",
-    "yarn": "1.22.19"
+    "npm": "8.15.0"
 },
   "description": "Stony Hill Essentials, LLC",
   "main": "server.js",
