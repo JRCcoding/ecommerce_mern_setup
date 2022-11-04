@@ -4,9 +4,6 @@
   "description": "Stony Hill Essentials, LLC",
   "main": "server.js",
   "type": "module",
-  // "engines": {
-  //   "node": "16.17.1"
-  // },
   "scripts": {
     "build": "react-scripts build",
     "start": "node backend/server",
