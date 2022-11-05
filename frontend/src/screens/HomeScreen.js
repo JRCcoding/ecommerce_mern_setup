@@ -9,6 +9,7 @@ import Paginate from '../components/Paginate'
 import ProductCarousel from '../components/ProductCarousel'
 import Meta from '../components/Meta'
 import { listProducts } from '../actions/productActions'
+import { Helmet } from 'react-helmet'
 
 const HomeScreen = ({ match }) => {
   const keyword = match.params.keyword
@@ -26,6 +27,10 @@ const HomeScreen = ({ match }) => {
 
   return (
     <>
+      <Helmet>
+        <title>Stony Hill Essentials, LLC</title>
+        <meta name='description' content='Stony Hill Essentials, LLC'></meta>
+      </Helmet>
       <Meta />
       {!keyword ? (
         <ProductCarousel />
