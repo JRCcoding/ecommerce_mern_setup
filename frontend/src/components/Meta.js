@@ -12,9 +12,11 @@ const Meta = ({ title, description, keywords }) => {
 }
 
 Meta.defaultProps = {
-  title: 'Welcome To ProShop',
-  description: 'We sell the best products for cheap',
-  keywords: 'electronics, buy electronics, cheap electroincs',
+  title: 'Stony Hill Essentials, LLC',
+  description:
+    'We create products that empower people to be confident in their own skin. Because being beautiful should be effortless. A natural feeling of freedom.',
+  keywords:
+    'skincare, skin products, products, skin, care, soap, cleanliness, lashes',
 }
 
 export default Meta
