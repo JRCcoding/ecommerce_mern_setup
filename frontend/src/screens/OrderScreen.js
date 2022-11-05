@@ -17,13 +17,13 @@ import {
 } from '../constants/orderConstants'
 
 //STRIPE TRIAL
-import { Elements } from '@stripe/react-stripe-js'
-import { loadStripe } from '@stripe/stripe-js'
-import CheckoutForm from '../components/CheckoutForm.js'
+// import { Elements } from '@stripe/react-stripe-js'
+// import { loadStripe } from '@stripe/stripe-js'
+// import CheckoutForm from '../components/CheckoutForm.js'
 
-const stripePromise = loadStripe(
-  'pk_test_51Lz70qH7orNrkK8QvimOaPwycQxVgWfDzASK0A0NDvrsjrTNMTpL2YVPdZGTd12EtizEpXrZY2eZBwd7j16mC5O600W4RQU6iL'
-)
+// const stripePromise = loadStripe(
+//   'pk_test_51Lz70qH7orNrkK8QvimOaPwycQxVgWfDzASK0A0NDvrsjrTNMTpL2YVPdZGTd12EtizEpXrZY2eZBwd7j16mC5O600W4RQU6iL'
+// )
 
 const OrderScreen = ({ match, history }) => {
   const orderId = match.params.id
@@ -46,9 +46,9 @@ const OrderScreen = ({ match, history }) => {
 
   //STRIPE TRIAL
 
-  const options = {
-    clientSecret: '{{CLIENT_SECRET}}',
-  }
+  // const options = {
+  //   clientSecret: '{{CLIENT_SECRET}}',
+  // }
 
   if (!loading) {
     //   Calculate prices
@@ -242,9 +242,9 @@ const OrderScreen = ({ match, history }) => {
           </Card>
         </Col>
       </Row>
-      <Elements stripe={stripePromise} options={options}>
+      {/* <Elements stripe={stripePromise} options={options}>
         <CheckoutForm />
-      </Elements>
+      </Elements> */}
     </>
   )
 }
