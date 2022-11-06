@@ -31,8 +31,8 @@ const ShippingScreen = ({ history }) => {
         id='Pickup'
         name='shippingPickup'
         value='Pickup'
-        checked
-        onChange={(e) => setPaymentMethod(e.target.value)}
+        // checked
+        // onChange={(e) => setNoShipping(e.target.value)}
       ></Form.Check>
       <h1>Shipping</h1>
       <Form onSubmit={submitHandler}>
