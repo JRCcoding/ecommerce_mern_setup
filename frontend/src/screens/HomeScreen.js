@@ -35,7 +35,7 @@ const HomeScreen = ({ match }) => {
       </Helmet>
       <Meta />
       {!keyword ? (
-        <Row className='bg-dark'>
+        <Row className='bg-dark introslide'>
           <Col>
             <h2>Elevating self-care one bar at a time.</h2>
             <p>
