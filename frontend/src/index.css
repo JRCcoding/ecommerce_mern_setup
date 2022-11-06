@@ -62,3 +62,7 @@ h2 {
 }
 
 /* CUSTOM ADDS */
+.introimage { 
+  height: 300px;
+  width: auto;
+}

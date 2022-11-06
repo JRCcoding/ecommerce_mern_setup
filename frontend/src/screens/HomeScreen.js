@@ -58,7 +58,7 @@ const HomeScreen = ({ match }) => {
             </p>
           </Col>
           <Col>
-            <Image src={introimage} fluid></Image>
+            <Image src={introimage} fluid className='introimage'></Image>
           </Col>
         </Row>
       ) : (
