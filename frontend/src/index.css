@@ -16,9 +16,12 @@ h2 {
   padding: 0.5rem 0;
 }
 #prodtitle {
-  font-size: 32px;
-  color: orangered;
+  font-size: 22px;
+  color: rgb(165, 70, 36);
   text-decoration-color: white;
+}
+.cardforproduct {
+  text-decoration: none;
 }
 
 .rating span {
