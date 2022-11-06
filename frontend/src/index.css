@@ -66,12 +66,14 @@ h2 {
   height: 300px;
   width: auto;
 }
+
+/*change font and opacity*/
 .introslide {
-  color: white;
+  color: rgb(255, 255, 255, 0.75);
 }
 .introslide h2 {
-  font-size: 42px;
+  font-size: 32px;
 }
 .introslide p {
-  font-size: 28px;
+  font-size: 22px;
 }
