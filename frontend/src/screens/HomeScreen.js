@@ -33,7 +33,14 @@ const HomeScreen = ({ match }) => {
       </Helmet>
       <Meta />
       {!keyword ? (
-        <ProductCarousel className='carouselwidth' />
+        <Row>
+          <Col>
+            <ProductCarousel />
+          </Col>
+          <Col>
+            <h2>Test carousel split</h2>
+          </Col>
+        </Row>
       ) : (
         <Link to='/' className='btn btn-light'>
           Go Back
