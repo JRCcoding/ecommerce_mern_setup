@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <header>
       <Navbar variant='light' bg='light' expand='lg' collapseOnSelect>
-        <Container>
+        <Container className='d-inline-flex justify-content-between'>
           <LinkContainer to='/'>
             <Navbar.Brand>Stony Hill Essentials</Navbar.Brand>
           </LinkContainer>
