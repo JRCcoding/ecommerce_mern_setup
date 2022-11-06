@@ -25,6 +25,15 @@ const ShippingScreen = ({ history }) => {
   return (
     <FormContainer>
       <CheckoutSteps step1 step2 />
+      <Form.Check
+        type='radio'
+        label='Pickup - 431 East 48th Street, Odessa TX'
+        id='Pickup'
+        name='shippingPickup'
+        value='Pickup'
+        checked
+        onChange={(e) => setPaymentMethod(e.target.value)}
+      ></Form.Check>
       <h1>Shipping</h1>
       <Form onSubmit={submitHandler}>
         <Form.Group controlId='address'>
