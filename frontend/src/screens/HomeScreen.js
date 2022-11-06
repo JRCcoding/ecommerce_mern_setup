@@ -10,6 +10,8 @@ import ProductCarousel from '../components/ProductCarousel'
 import Meta from '../components/Meta'
 import { listProducts } from '../actions/productActions'
 import { Helmet } from 'react-helmet'
+import Image from 'react-bootstrap'
+import introimage from '../../public/images/introimage.png'
 
 const HomeScreen = ({ match }) => {
   const keyword = match.params.keyword
@@ -47,6 +49,9 @@ const HomeScreen = ({ match }) => {
               directly communicates with the brain throughout the day to help
               guard us.
             </p>
+          </Col>
+          <Col>
+            <Image src={introimage} fluid></Image>
           </Col>
         </Row>
       ) : (
