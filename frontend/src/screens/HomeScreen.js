@@ -40,6 +40,13 @@ const HomeScreen = ({ match }) => {
             <ProductCarousel />
           </Col>
           <Col>
+            <h2>Elevating self-care one bar at a time.</h2>
+            <p>
+              A fusion of compassionate craftsmanship, natural ingredients, and
+              practical opulence make Stony Hill Essentials the smart,
+              instinctive choice for those who embrace wellness and care about
+              the future.
+            </p>
             <h2>Why should you care about your skin...</h2>
             <p>
               In the human body, skin is the largest organ. Around one third of
