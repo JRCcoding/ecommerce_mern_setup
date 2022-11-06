@@ -15,11 +15,7 @@ h2 {
   font-size: 1.4rem;
   padding: 0.5rem 0;
 }
-/* #prodtitle {
-  font-size: 22px;
-  color: rgb(165, 70, 36);
-  text-decoration-color: white;
-} */
+
 .cardforproduct {
   text-decoration: none;
 }
@@ -67,6 +63,10 @@ h2 {
   width: auto;
 }
 
+#prodtitle {
+  text-decoration: none;
+  font-size: 3rem;
+}
 /*change font and opacity*/
 /* .introslide {
   color: rgb(255, 255, 255, 0.75);
