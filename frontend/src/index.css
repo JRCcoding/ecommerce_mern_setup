@@ -66,3 +66,9 @@ h2 {
   height: 300px;
   width: auto;
 }
+col h2 {
+  color: white;
+}
+col p { 
+  color: white;
+}
