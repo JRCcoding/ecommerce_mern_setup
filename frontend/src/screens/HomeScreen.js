@@ -35,10 +35,7 @@ const HomeScreen = ({ match }) => {
       </Helmet>
       <Meta />
       {!keyword ? (
-        <Row>
-          <Col>
-            <ProductCarousel />
-          </Col>
+        <Row className='bg-dark'>
           <Col>
             <h2>Elevating self-care one bar at a time.</h2>
             <p>
@@ -56,6 +53,9 @@ const HomeScreen = ({ match }) => {
               directly communicates with the brain throughout the day to help
               guard us.
             </p>
+          </Col>
+          <Col>
+            <ProductCarousel />
           </Col>
           <Col>
             <Image src={introimage} fluid className='introimage'></Image>
