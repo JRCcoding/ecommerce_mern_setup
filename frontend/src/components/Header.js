@@ -18,14 +18,13 @@ const Header = () => {
 
   return (
     <header>
-      <Navbar bg='danger' expand='lg' collapseOnSelect>
+      <Navbar variant='light' expand='lg' collapseOnSelect>
         <Container>
           <LinkContainer to='/'>
             <Navbar.Brand>Stony Hill Essentials</Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
-            <Route render={({ history }) => <SearchBox history={history} />} />
             <Nav className='ml-auto'>
               <LinkContainer to='/cart'>
                 <Nav.Link>
@@ -62,6 +61,7 @@ const Header = () => {
                 </NavDropdown>
               )}
             </Nav>
+            <Route render={({ history }) => <SearchBox history={history} />} />
           </Navbar.Collapse>
         </Container>
       </Navbar>
