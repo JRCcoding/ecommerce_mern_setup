@@ -29,6 +29,7 @@ h2 {
 .carousel-caption {
   position: absolute;
   top: 0;
+  z-index: 99999;
 }
 
 .carousel-caption h2 {
