@@ -10,7 +10,7 @@ import ProductCarousel from '../components/ProductCarousel'
 import Meta from '../components/Meta'
 import { listProducts } from '../actions/productActions'
 import { Helmet } from 'react-helmet'
-import Image from 'react-bootstrap'
+import Image from 'react-bootstrap/Image'
 import introimage from '../images/introimage.png'
 
 const HomeScreen = ({ match }) => {
