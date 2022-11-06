@@ -19,8 +19,8 @@ const Header = () => {
   return (
     <header>
       <Navbar
-        variant='light'
-        bg='light'
+        variant='dark'
+        bg='dark'
         expand='lg'
         collapseOnSelect
         // className='d-inline-flex justify-content-between'
