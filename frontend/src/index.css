@@ -66,9 +66,6 @@ h2 {
   height: 300px;
   width: auto;
 }
-Col h2 {
-  color: white;
-}
-Col p { 
+.introslide {
   color: white;
 }
