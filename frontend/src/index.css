@@ -18,8 +18,7 @@ h2 {
 #prodtitle {
   font-size: 32px;
   color: orangered;
-  text-decoration: none;
-
+  text-decoration-color: white;
 }
 
 .rating span {
