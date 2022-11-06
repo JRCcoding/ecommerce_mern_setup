@@ -76,8 +76,12 @@ h2 {
   font-family: 'Lokananta', sans-serif;color: white!important;}
   
 .introslide p {
-  font-size: 22px;
   font-family: 'Lokananta', sans-serif;}
-.introslide p:nth-child(2) {
-  font-size: 26px!important;
-}
+
+  #leftintro {
+    font-size: 26px;
+    letter-spacing: 4px;
+  }
+  #rightintro {
+    font-size: 22px;
+  }

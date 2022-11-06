@@ -36,7 +36,7 @@ const HomeScreen = ({ match }) => {
         <Row className='bg-dark introslide'>
           <Col>
             <h2>Elevating self-care one bar at a time.</h2>
-            <p>
+            <p id='leftintro'>
               A fusion of compassionate craftsmanship, natural ingredients, and
               practical opulence make Stony Hill Essentials the smart,
               instinctive choice for those who embrace wellness and care about
@@ -48,7 +48,7 @@ const HomeScreen = ({ match }) => {
           </Col>
           <Col>
             <h2>Why should you care about your skin...</h2>
-            <p>
+            <p id='rightintro'>
               In the human body, skin is the largest organ. Around one third of
               the body’s toxins are released through the skin, hence this
               wonderful organ needs tender loving care. The skin is more
