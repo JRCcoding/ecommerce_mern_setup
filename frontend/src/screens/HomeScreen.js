@@ -38,7 +38,15 @@ const HomeScreen = ({ match }) => {
             <ProductCarousel />
           </Col>
           <Col>
-            <h2>Test carousel split</h2>
+            <h2>Why should you care about your skin...</h2>
+            <p>
+              In the human body, skin is the largest organ. Around one third of
+              the body’s toxins are released through the skin, hence this
+              wonderful organ needs tender loving care. The skin is more
+              valuable than we can comprehend, as skin is made up of nerves that
+              directly communicates with the brain throughout the day to help
+              guard us.
+            </p>
           </Col>
         </Row>
       ) : (
