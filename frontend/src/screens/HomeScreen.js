@@ -11,7 +11,7 @@ import Meta from '../components/Meta'
 import { listProducts } from '../actions/productActions'
 import { Helmet } from 'react-helmet'
 import Image from 'react-bootstrap'
-import introimage from '../../public/images/introimage.png'
+import introimage from '../images/introimage.png'
 
 const HomeScreen = ({ match }) => {
   const keyword = match.params.keyword
