@@ -15,6 +15,10 @@ h2 {
   font-size: 1.4rem;
   padding: 0.5rem 0;
 }
+#prodtitle {
+  font-size: 36rem;
+  color: orangered;
+}
 
 .rating span {
   margin: 0.1rem;
