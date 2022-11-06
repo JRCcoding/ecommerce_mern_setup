@@ -44,6 +44,11 @@ const HomeScreen = ({ match }) => {
               instinctive choice for those who embrace wellness and care about
               the future.
             </p>
+          </Col>
+          <Col>
+            <ProductCarousel />
+          </Col>
+          <Col>
             <h2>Why should you care about your skin...</h2>
             <p>
               In the human body, skin is the largest organ. Around one third of
@@ -53,12 +58,6 @@ const HomeScreen = ({ match }) => {
               directly communicates with the brain throughout the day to help
               guard us.
             </p>
-          </Col>
-          <Col>
-            <ProductCarousel />
-          </Col>
-          <Col>
-            <Image src={introimage} fluid className='introimage'></Image>
           </Col>
         </Row>
       ) : (

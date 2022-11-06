@@ -69,3 +69,9 @@ h2 {
 .introslide {
   color: white;
 }
+.introslide h2 {
+  font-size: 42px;
+}
+.introslide p {
+  font-size: 28px;
+}
