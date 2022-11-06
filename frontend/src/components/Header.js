@@ -23,7 +23,7 @@ const Header = () => {
         bg='light'
         expand='lg'
         collapseOnSelect
-        className='d-inline-flex justify-content-between'
+        // className='d-inline-flex justify-content-between'
       >
         <Container>
           <LinkContainer to='/'>
