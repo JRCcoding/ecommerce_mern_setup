@@ -78,3 +78,6 @@ h2 {
 .introslide p {
   font-size: 22px;
   font-family: 'Lokananta', sans-serif;}
+.introslide p:nth-child(2) {
+  font-size: 26px!important;
+}
