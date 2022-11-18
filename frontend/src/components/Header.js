@@ -27,7 +27,7 @@ const Header = () => {
       >
         <Container>
           <LinkContainer to='/'>
-            <Navbar.Brand>Stony Hill Essentials</Navbar.Brand>
+            <Navbar.Brand>Ecommerce Shop</Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
